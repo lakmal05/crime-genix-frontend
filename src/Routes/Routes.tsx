@@ -13,7 +13,10 @@ const Routes = [
   {
     path: "/sign-up",
     component: lazy(() => import("../pages/SignUpPage")),
-  },
+  },    
+
+
+  
   {
     path: "/dna-upload",
     component: lazy(() => import("../pages/DNAUploadPage")),
