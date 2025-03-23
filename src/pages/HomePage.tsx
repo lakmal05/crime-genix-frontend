@@ -16,6 +16,11 @@ import { Button, Col, Row } from "antd";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+    
+
+
+
+
 
 const HomePage = () => {
   const history = useNavigate();
