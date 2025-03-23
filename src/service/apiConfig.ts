@@ -8,6 +8,9 @@ interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
 
+
+
+
 const URL_REMOTE = import.meta. env.VITE_API_URL;
 
 console.log(URL_REMOTE);
