@@ -1,0 +1,174 @@
+.mainDNAImage {
+  width: 100%;
+  height: auto;
+}
+
+.mainTextDiv {
+  position: absolute;
+  top: 120px;
+
+  .mainText {
+    width: 50%;
+  }
+
+  .subText {
+    width: 30%;
+  }
+}
+.subTextDiv {
+  position: absolute;
+  bottom: 120px;
+  width: 25%;
+  background: rgba(255, 255, 255, 0.26);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+}
+
+.gradientOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  pointer-events: none; /* Allows clicks to pass through to the video */
+}
+
+@media (max-width: 1600px) {
+  .mainText {
+    width: 70% !important ;
+  }
+  .subText {
+    width: 50% !important ;
+  }
+
+  .subTextDiv {
+    width: 30% !important;
+    bottom: 130px;
+  }
+}
+@media (max-width: 1300px) {
+  .mainDNAImage {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .mainText {
+    width: 60% !important ;
+  }
+  .subText {
+    width: 50% !important ;
+  }
+
+  .subTextDiv {
+    width: 30% !important;
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .mainTextDiv {
+    top: 80px;
+  }
+  .subText {
+    width: 100% !important ;
+  }
+  .mainText {
+    font-size: 65px !important;
+    width: 100% !important ;
+  }
+  .subTextDiv {
+    width: 50% !important;
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainText {
+    font-size: 55px !important;
+  }
+  .subTextDiv {
+    width: 80% !important;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainText {
+    font-size: 45px !important;
+  }
+  .subTextDiv {
+    bottom: 30px;
+  }
+}
+
+.textBar {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.iterableText {
+  font-size: 74px;
+  text-transform: uppercase;
+}
+.text-loop {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-text 20s linear infinite;
+}
+
+.text-loop .iterableText {
+  display: inline-block;
+  padding-right: 20px; /* Spacing between repeated text */
+  color: #333;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 2650px) {
+  .DNAAnimation {
+    rotate: 0deg;
+  }
+}
+@media (max-width: 1800px) {
+  .DNAAnimation {
+    rotate: 90deg;
+  }
+}
+@media (max-width: 991px) {
+  .DNAAnimation {
+    rotate: 0deg;
+  }
+}
+
+.manGifBg {
+  background: linear-gradient(180deg, #626262 0%, #242424 100%);
+  height: 1000px;
+  position: relative;
+}
+
+@media (max-width: 586px) {
+  .manGifBg {
+    background: linear-gradient(180deg, #646464 25%, #202020 76%);
+    height: 2200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .processArrowImg {
+    rotate: 90deg;
+    width: 20% !important;
+    margin: 30px 0;
+  }
+}

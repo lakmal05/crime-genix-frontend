@@ -1,0 +1,36 @@
+body {
+  position: relative;
+}
+
+.body_loader {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: start;
+  z-index: 100000000000000;
+
+}
+.loader-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+   background-color: #000000b0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loaderImg {
+  //  rotate: -45deg;
+  z-index: 2;
+}
+
+// .lineDiv{
+//   width: 150px;
+//   height: 5px;
+//   background-color: rgb(26, 26, 26);
+//   border-radius: 20px;
+//   z-index: 5;
+// }

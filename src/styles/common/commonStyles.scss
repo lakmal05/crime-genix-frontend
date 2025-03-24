@@ -1,0 +1,142 @@
+/* Custom Bootstrap-like Utility Classes */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.containerBox {
+  padding: 0 100px;
+}
+
+/* Font Weight */
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.font-weight-semi-bold {
+  font-weight: 600 !important;
+}
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+.font-weight-light {
+  font-weight: 300 !important;
+}
+.font-weight-extra-light {
+  font-weight: 200 !important;
+}
+
+/* Font family */
+.font-family-2 {
+  font-family: "Philosopher", serif !important;
+}
+
+/* Font Size */
+.font-size-1 {
+  font-size: 85px !important;
+}
+.font-size-2 {
+  font-size: 50px !important;
+}
+.font-size-3 {
+  font-size: 22px !important;
+}
+.font-size-4 {
+  font-size: 18px !important;
+}
+.font-size-5 {
+  font-size: 14px !important;
+}
+
+.font-size-1-2 {
+  font-size: 65px !important;
+}
+
+/* Color */
+.primary-color {
+  color: #009990 !important;
+}
+.secondary-color {
+  color: #00459b !important;
+}
+.text-black {
+  color: #222222 !important;
+}
+.text-gray {
+  color: #8d8b8b !important;
+}
+.bg-gray {
+  color: #e2eef8;
+}
+.text-gray-secondary {
+  color: #5e5f60;
+}
+
+/* Width */
+.w-15 {
+  width: 15% !important;
+}
+.w-25 {
+  width: 25% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.w-75 {
+  width: 75% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.h-25 {
+  height: 25% !important;
+}
+.h-50 {
+  height: 50% !important;
+}
+.h-75 {
+  height: 75% !important;
+}
+.h-100 {
+  height: 100% !important;
+}
+
+/* radius */
+.img-border-radius {
+  border-radius: 10px;
+}
+
+/* weight */
+.font-weight-small {
+  font-weight: 200;
+}
+
+/* Background Color */
+.primary-bg-color {
+  background-color: #009990 !important;
+}
+
+.secondary-button {
+  background-color: #00459b; // Custom background color
+  border-color: #00459b; // Custom border color
+  color: #ffffff; // Custom text color
+
+  &:hover {
+    border-color: #009990; // Hover border color
+  }
+}
+
+@media (max-width: 1000px) {
+  .containerBox {
+    padding: 0 10px !important;
+  }
+}
