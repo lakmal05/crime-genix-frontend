@@ -17,6 +17,7 @@ export async function loginService(userCredentials: LoginUserCredentialsObj) {
   return await ApiService.callApi(apiObject);
 }
 
+
 export async function signUpService(userCredentials: SignUpUserObj) {
   const apiObject: ApiObject = {
     method: "POST",
